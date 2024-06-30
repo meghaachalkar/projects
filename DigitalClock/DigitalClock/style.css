@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;/*Viewpoint Height*/
+    /* 1em=16px */
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+}
+#clock {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 230px;
+    width: 580px;
+    background: transparent;
+    border-radius: 3px;
+    /* box-shadow: 0px 5px 10px 15px rgba(207, 244, 242, 0.979); */
+    /* animation: anim2 2.5s  infinite; */
+}
+#clock div {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: rgba(25, 29, 255, 0.404);
+    /* box-shadow:horizontal shadow vertical shadow blur effect color*/
+    box-shadow: 5px 4px 15px rgba(0, 0, 0, .7);
+    border-radius: 30px;
+    letter-spacing: 3px;
+    animation: anim1 3s alternate infinite;
+}
+@keyframes anim1 {
+    25% {background-color: rgba(0, 88, 251, 0.598);}
+    50% {background-color: rgba(243, 109, 255, 0.605);}
+    75% {background-color: rgba(117, 4, 183, 0.808);}
+    100% {background-color: rgba(18, 22, 250, 0.55);}
+}
+@keyframes anim2 {
+    25% {transform: rotate(-3deg);} 
+    50% {transform: rotate(3deg);}
+    75% {transform: rotate(-3deg);}
+    100% {transform: rotate(0deg);}
+}
+#clock span {
+    font-weight: bolder;
+    font-size: 60px;
+}
+#clock span.time {
+    font-size: 15px;
+}
+#btn{
+    /* color:rgba(16, 14, 14, 0.84); */
+    width: 150px;
+    height: 30px;
+    /* background-color: #fff; */
+    border: 2px solid white;
+    border-radius: 60px;
+    position: absolute;
+    top: 20px;
+    left: 80%;
+    cursor: pointer;
+    font-weight: 600;
+}

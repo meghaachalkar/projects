@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .logo{
+        height: 60px;
+        width: 100px;
+        position: absolute;
+        left: 100px;
+    }
+    .search{
+        width: 400px;
+        height: 25px;
+        position: absolute;
+        left: 230px;
+    top: 25px;
+    border-radius: 5px;
+    border: 0.5ps solid rgb(241, 241, 241);
+    }
+    .sel{
+        position: absolute;
+        left: 72%;
+        top: 28px;
+        border: none;
+    }
+    .signin button{
+        background-color: rgba(249, 41, 41, 0.781);
+        color: #ffffff;
+        border: 1px white ;
+        border-radius:5px;
+        padding: 5px 10px;
+        position: absolute;
+        left: 81%;
+        top: 25px;
+    }
+     li{
+        display: inline-block;
+         margin: 10px;
+    }
+    ul{
+        display: inline-block;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        background-color: rgb(183, 183, 183);
+         }
+</style>
+</head>
+<body>
+    <a href="#"><img src="logo.png" class="logo"></a>
+    <form action="#">
+        <input type="search" placeholder="Search for movies events and sports" class="search">
+    </form>
+    <select class="sel">
+        <option>Bengaluru</option>
+        <option>Mysore</option>
+        <option>Shivamogga</option>
+        <option>Udupi</option>
+        <option>Mangalore</option>
+        <option>Huballi</option>
+    </select>
+    <a href="#" class="signin"><button>SignIn</button></a>
+    <ul type="none">
+        <li>Movie</li>
+        <li>Stream</li>
+        <li>Events</li>
+        <li>Plays</li>
+        <li>Sports</li>
+        <li>Activities</li>
+    </ul>
+    <ul type="none" class="ul">
+        <li>List Your Show</li>
+        <li>Stream</li>
+        <li>Events</li>
+        <li>Plays</li>
+    </ul>
+</body>
+</html>

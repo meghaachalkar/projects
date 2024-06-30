@@ -1,0 +1,975 @@
+body{
+width: 100%;
+height: 100%;
+overflow-x: hidden;
+}
+#topnav{
+width: 100%;
+height: 35px;
+background-color: #3F4050;
+margin-left: -10px;
+padding: 20px;
+margin-top: -5px;
+}
+#logo{
+height: 75px;
+width: 130px;
+position: relative;
+top: -20px;
+left: 120px;
+}
+#searchbar{
+width: 500px;
+height: 40px;
+margin-left: 40px;
+border-radius: 5px;
+position: relative;
+top: -56px;
+left: 90px;
+}
+#search{
+color: gray;
+position: absolute;
+top: 25px;
+left: 290px;
+font-size: 30px;
+}
+#dropdown{
+background-color: #3F4050;
+color: gray;
+border: none;
+position: relative;
+top: -55px;
+left: 500px;
+}
+#dropdown:hover{
+color: white;
+}
+#btn{
+color: white;
+text-decoration: none;
+border: 0.1px solid #E06374;
+background-color: #E06374;
+border-radius: 5px;
+padding: 5px;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 2px;
+padding-bottom: 3px;
+position: relative;
+top: -55px;
+left: 520px;
+font-size: 16px;
+font-family:serif;
+}
+#menu{
+color: white;
+position: relative;
+top: -45px;
+left: 535px;
+font-size: 30px;
+}
+#secondnav{
+height: 40px;
+width: 110%;
+background-color: #2e2f45;
+position: relative;
+left: 20px;
+top: -16px;
+padding-left: -20px;
+margin-left: -38px;
+}
+.secondnavitems{
+color: gray;
+list-style-type: none;
+}
+#leftitems{
+float: left;
+padding: 5px;
+padding-top: 10px;
+position: relative;
+left: 100px;
+}
+#leftitems:hover{
+color: white;
+}
+#rightitems{
+display: inline;
+color: white;
+list-style-type: none;
+margin: 5px;
+padding: 5px;
+position: relative;
+top: 10px;
+left: 560px;
+font-size: 14px;
+}
+#slice{
+width: 100%;
+height: 400px;
+margin-top: -5px;
+margin-left: 20px;
+margin-right: 20px;
+border-radius: 5px;
+background:url(https://www.audi.in/in/web/en.html)no-repeat ;
+}
+#iccc{
+padding: 20px;
+width: 79%;
+position: relative;
+left: 140px;
+background: url(https://www.coca-colacompany.com/)no-repeat;
+}
+#iccwc{
+	background: url(https://www.icc-cricket.com/homepage) no-repeat;
+	padding: 20px;
+width: 85%;
+position: relative;
+left: 140px;
+}
+#Movies{
+padding-left: 20px;
+font-size: 25px;
+font-family:sans-serif;
+padding-left: 160px;
+}
+#Jailer{
+margin: 20px;
+height: 350px;
+width: 200px;
+border-radius: 10px;
+border-top-left-radius: 10px;
+}
+#toby{
+height: 350px;
+width: 200px;
+border-radius: 10px;
+margin: 20px;
+}
+#Dreamgirl{
+margin: 20px;
+height: 350px;
+width: 200px;
+border-radius: 10px;
+}
+#Arjuna{
+margin: 20px;
+height: 350px;
+width: 200px;
+border-radius: 10px;
+}
+#Arjuna:hover{
+	transform: scale3d(1.5, 1.2, 1.0);
+}
+#Gadar{
+margin: 20px;
+height: 350px;
+width: 200px;
+border-radius: 10px;
+}
+#Gadar:hover{
+	transform: scale3d(1.5, 1.2, 1.0);
+}
+#RecommendedMovies{
+margin-top: -20px;
+margin-left:140px;
+}
+#Action{
+position: relative;
+left: 20px;
+font-family: arial;
+}
+#cinema{
+position: relative;
+left:90px;
+top: -20px;
+}
+#caption2{
+position: relative;
+left: 155px;
+top: 6px;
+color: gray;
+}
+#girl{
+position: relative;
+left: 232px;
+top: -20px;
+}
+#caption3{
+position: relative;
+left: 162px;
+top: 6px;
+color: gray;
+}
+#Arjunaa{
+position: relative;
+right: -220px;
+top: -20px;
+}
+#caption4{
+position: relative;
+left: 188px;
+top: 6px;
+color: gray;
+}
+#Gadar2{
+position: relative;
+right: -330px;
+top: -20px;
+}
+#caption5{
+position: relative;
+left: 100px;
+top: 6px;
+color: gray;
+}
+#caption1{
+position: relative;
+top: 6px;
+color: gray;
+}
+#imgg{
+padding: 20px;
+width: 79%;
+position: relative;
+left: 140px;
+background:url(https://in.bookmyshow.com/explore/home/bengaluru)no-repeat;
+}
+#Workshop{
+margin: 20px;
+height: 210px;
+width: 210px;
+border-radius: 10px;
+}
+#Workshop:hover{
+	transform: scale3d(1.4, 1.4, 1.0);
+}
+#kids{
+margin: 20px;
+height: 210px;
+width: 210px;
+border-radius: 10px;
+}
+#kids:hover{
+	transform: scale3d(1.4, 1.4, 1.0);
+}
+#comedy{
+margin: 20px;
+height: 210px;
+width: 210px;
+border-radius: 10px;
+}
+#comedy:hover{
+	transform: scale3d(1.4, 1.4, 1.0);
+}
+#Music{
+margin: 20px;
+height: 210px;
+width: 210px;
+border-radius: 10px;
+}
+#Music:hover{
+	transform: scale3d(1.4, 1.4, 1.0);
+}
+#Sports{
+margin: 20px;
+height: 210px;
+width: 210px;
+border-radius: 10px;
+}
+#Sports:hover{
+	transform: scale3d(1.4, 1.4, 1.0);
+}
+#Events{
+margin-top: -20px;
+margin-left:140px;
+}
+#Best{
+position: relative;
+left: 20px;
+top: 25px;
+font-family: sans-serif;
+color: black;
+}
+#premiere{
+background-color: #2e2f45;
+width: 100%;
+height: 580px;
+padding-left: 120px;
+margin: 20px;
+position: relative;
+right: 40px;
+}
+#img2{
+margin-left: 20px;
+width: 85%;
+}
+#font{
+color: white;
+margin-left: 20px;
+font-family: arial;
+}
+#para{
+color: white;
+margin-left: 20px;
+margin-top: -10px;
+font-family: arial;
+font-size: 15px;
+}
+#parap{
+margin-top: -20px;
+}
+#molcar{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#molcar:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#Silent{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin-bottom: 300px;
+margin: 20px;
+}
+#Silent:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#One{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin-bottom: 300px;
+margin: 20px;
+}
+#One:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#Sunmoon{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin-bottom: 300px;
+margin: 20px;
+}
+#Sunmoon:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#Queeens{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin-bottom: 300px;
+margin: 20px;
+}
+#Queeens:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#premiereimg{
+margin-top: -35px;
+}
+#cap1{
+position: relative;
+color: white;
+left: 20px;
+font-family: sans-serif;
+top: -35px;
+font-size: 18px;
+}
+#capsub{
+color: white;
+position: relative;
+top: -80px;
+left: 17px;
+}
+#cap2{
+position: relative;
+color: white;
+left: 280px;
+font-family: sans-serif;
+top: -140px;
+font-size: 18px;
+}
+#capsub2{
+color: white;
+position: relative;
+top: -184px;
+left: 280px;
+}
+#cap3{
+position: relative;
+color: white;
+left:550px;
+font-family: sans-serif;
+top: -250px;
+font-size: 18px;
+}
+#capsub3{
+color: white;
+position: relative;
+top: -290px;
+left: 550px;
+}
+#cap4{
+position: relative;
+color: white;
+left:810px;
+font-family: sans-serif;
+top: -360px;
+font-size: 18px;
+}
+#capsub4{
+color: white;
+position: relative;
+top: -400px;
+left: 810px;
+}
+#cap5{
+position: relative;
+color: white;
+left:1080px;
+font-family: sans-serif;
+top: -460px;
+font-size: 18px;
+}
+#capsub5{
+color: white;
+position: relative;
+top: -500px;
+left: 1080px;
+}
+#Online{
+font-family: arial;
+position: relative;
+left: 150px;
+top: 10px;
+}
+#master{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#master:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#ncpa{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#ncpa:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#wemet{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#wemet:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#work{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#work:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#mic{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#mic:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#streaming{
+margin-top: -20px;
+margin-left:140px;
+}
+#cap11{
+position: relative;
+color: black;
+left: 20px;
+font-family: sans-serif;
+top: -30px;
+font-size: 18px;
+}
+#capsub11{
+color: black;
+position: relative;
+top: -70px;
+left: 17px;
+}
+#cap21{
+position: relative;
+color: black;
+left: 280px;
+font-family: sans-serif;
+top: -150px;
+font-size: 18px;
+}
+#capsub21{
+color: black;
+position: relative;
+top: -195px;
+left: 280px;
+}
+#cap31{
+position: relative;
+color: black;
+left:550px;
+font-family: sans-serif;
+top: -280px;
+font-size: 18px;
+}
+#capsub31{
+color: black;
+position: relative;
+top: -320px;
+left: 550px;
+}
+#cap41{
+position: relative;
+color: black;
+left:810px;
+font-family: sans-serif;
+top: -390px;
+font-size: 18px;
+}
+#capsub41{
+color: black;
+position: relative;
+top: -430px;
+left: 810px;
+}
+#cap51{
+position: relative;
+color: black;
+left:1080px;
+font-family: sans-serif;
+top: -500px;
+font-size: 18px;
+}
+#capsub51{
+color: black;
+position: relative;
+top: -540px;
+left: 1080px;
+}
+#outdoorevent{
+font-family: arial;
+position: relative;
+left: 150px;
+top: -520px;
+}
+#outdoor{
+margin-top: -500px;
+margin-left:140px;
+}
+#event1{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#event1:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#event2{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#event2:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#event3{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#event3:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#event4{
+	width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#event4:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#event5{
+	width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#event5:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#evesub1{
+	position: relative;
+color: black;
+left: 20px;
+font-family: sans-serif;
+top: -40px;
+font-size: 18px;
+}
+#sub1{
+	color: grey;
+position: relative;
+top: -70px;
+left: 17px;
+}
+#evesub2{
+	position: relative;
+color: black;
+left: 280px;
+font-family: sans-serif;
+top: -144px;
+font-size: 18px;
+}
+#sub2{
+color: grey;
+position: relative;
+top: -174px;
+left: 280px;
+}
+#evesub3{
+	position: relative;
+color: black;
+left:550px;
+font-family: sans-serif;
+top: -275px;
+font-size: 18px;
+}
+#sub3{
+color: grey;
+position: relative;
+top: -310px;
+left: 550px;
+}
+#evesub4{
+	position: relative;
+color: black;
+left:810px;
+font-family: sans-serif;
+top: -400px;
+font-size: 18px;
+}
+#sub4{
+color: grey;
+position: relative;
+top: -440px;
+left: 810px;
+}
+#evesub5{
+	position: relative;
+color: black;
+left:1080px;
+font-family: sans-serif;
+top: -555px;
+font-size: 18px;
+}
+#sub5{
+color: grey;
+position: relative;
+top: -590px;
+left: 1080px;
+}
+
+#popular{
+font-family: arial;
+position: relative;
+left: 150px;
+top: -600px;
+}
+#poevent{
+margin-top: -590px;
+margin-left:140px;
+}
+#pop1{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#pop1:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#pop2{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#pop2:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#pop3{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#pop3:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#pop4{
+	width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#pop4:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#pop5{
+	width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#pop5:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#popsub1{
+	position: relative;
+color: black;
+left: 20px;
+font-family: sans-serif;
+top: -40px;
+font-size: 18px;
+}
+#psub1{
+	color: grey;
+position: relative;
+top: -70px;
+left: 17px;
+}
+#popsub2{
+	position: relative;
+color: black;
+left: 280px;
+font-family: sans-serif;
+top: -184px;
+font-size: 18px;
+}
+#psub2{
+color: grey;
+position: relative;
+top: -214px;
+left: 280px;
+}
+#popsub3{
+	position: relative;
+color: black;
+left:550px;
+font-family: sans-serif;
+top: -294px;
+font-size: 18px;
+}
+#psub3{
+color: grey;
+position: relative;
+top: -330px;
+left: 550px;
+}
+#popsub4{
+	position: relative;
+color: black;
+left:810px;
+font-family: sans-serif;
+top: -440px;
+font-size: 18px;
+}
+#psub4{
+color: grey;
+position: relative;
+top: -475px;
+left: 810px;
+}
+#popsub5{
+	position: relative;
+color: black;
+left:1080px;
+font-family: sans-serif;
+top: -585px;
+font-size: 18px;
+}
+#psub5{
+color: grey;
+position: relative;
+top: -610px;
+left: 1080px;
+}
+
+#cwc{
+font-family: arial;
+position: relative;
+left: 150px;
+top: -590px;
+}
+#icccwc{
+margin-top: -590px;
+margin-left:140px;
+}
+#sport1{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#sport1:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#sport2{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#sport2:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#sport3{
+width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#sport3:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#sport4{
+	width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#sport4:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#sport5{
+	width: 220px;
+height: 330px;
+border-radius: 10px;
+margin: 20px;
+bottom: 20px;
+}
+#sport5:hover{
+	transform: scale3d(1.3, 1.2, 1.0);
+}
+#ssub1{
+	position: relative;
+color: black;
+left: 20px;
+font-family: sans-serif;
+top: -40px;
+font-size: 18px;
+}
+#soprtsub1{
+	color: grey;
+position: relative;
+top: -80px;
+left: 17px;
+}
+#ssub2{
+	position: relative;
+color: black;
+left: 280px;
+font-family: sans-serif;
+top: -174px;
+font-size: 18px;
+}
+#soprtsub2{
+color: grey;
+position: relative;
+top: -214px;
+left: 280px;
+}
+#ssub3{
+	position: relative;
+color: black;
+left:550px;
+font-family: sans-serif;
+top: -314px;
+font-size: 18px;
+}
+#soprtsub3{
+color: grey;
+position: relative;
+top: -350px;
+left: 550px;
+}
+#ssub4{
+	position: relative;
+color: black;
+left:810px;
+font-family: sans-serif;
+top: -440px;
+font-size: 18px;
+}
+#soprtsub4{
+color: grey;
+position: relative;
+top: -475px;
+left: 810px;
+}
+#ssub5{
+	position: relative;
+color: black;
+left:1080px;
+font-family: sans-serif;
+top: -595px;
+font-size: 18px;
+}
+#soprtsub5{
+color: grey;
+position: relative;
+top: -630px;
+left: 1080px;
+}
+#Jailer:hover{
+	transform: scale3d(1.5, 1.2, 1.0);
+}
+#toby:hover{
+	transform: scale3d(1.5, 1.2, 1.0);
+}
+#Dreamgirl:hover{
+	transform: scale3d(1.5, 1.2, 1.0);
+}
